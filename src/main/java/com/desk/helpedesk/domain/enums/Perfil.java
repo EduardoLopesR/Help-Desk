@@ -31,6 +31,6 @@ public enum Perfil {
 				}
 			}
 		}
-		throw new IllegalArgumentExcepetion("Perifl inváido");
+		throw new IllegalArgumentException("Perifl inváido");
 	}
 }
