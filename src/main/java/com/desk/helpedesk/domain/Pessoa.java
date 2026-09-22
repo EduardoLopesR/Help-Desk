@@ -46,14 +46,13 @@ public abstract class Pessoa implements JacksonSerializable {
 		addPerfil(Perfil.CLIENTE);
 	}
 	
-	public Pessoa(Integer id, String nome, String cpf, String email, String senha, Set<Integer> perfis){
+	public Pessoa(Integer id, String nome, String cpf, String email, String senha){
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.cpf = cpf;
 		this.email = email;
 		this.senha = senha;
-		this.perfis = perfis;
 	}
 	public Integer getId() {
 		return id;

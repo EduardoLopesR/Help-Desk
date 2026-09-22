@@ -2,7 +2,7 @@ package com.desk.helpedesk.domain;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
+
 
 import com.desk.helpedesk.domain.enums.Perfil;
 
@@ -27,8 +27,8 @@ public class Cliente extends Pessoa {
 		addPerfil(Perfil.CLIENTE);
 	}
 
-	public Cliente(Integer id, String nome, String cpf, String email, String senha, Set<Integer> perfis) {
-		super(id, nome, cpf, email, senha, perfis);
+	public Cliente(Integer id, String nome, String cpf, String email, String senha) {
+		super(id, nome, cpf, email, senha);
 		addPerfil(Perfil.CLIENTE);
 	}
 	
